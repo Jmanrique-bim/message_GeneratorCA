@@ -11,6 +11,7 @@
 body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   background: url("https://media.giphy.com/media/JUwa2qSoTwcxv0gFJh/giphy.gif?cid=ecf05e47ttyafbogge9wult5z2qwta2ll3arrg4hvwvfeb4k&ep=v1_gifs_search&rid=giphy.gif&ct=g");
+  background-size: cover;
   color: #333;
   min-height: 100vh;
   display: flex;

@@ -1,0 +1,15 @@
+# Ignore node_modules folder if you add any Node dependencies in the future
+node_modules/
+
+# Ignore build output or compiled files (if your bin folder contains generated files)
+bin/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore environment variable files (if any)
+.env
