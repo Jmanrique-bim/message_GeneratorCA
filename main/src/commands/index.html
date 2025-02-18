@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Message Generator</title>
+  <!-- Link to your CSS file -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo">Daily motivation</div>
+    <nav class="nav-links">
+      <ul>
+        <li><a href="#">Quotes</a></li>
+        <li><a href="#">Images</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="quote-container">
+      <div class="quote-content">
+        <h1 class="quote-text">
+          "This is a sample quote that can be generated dynamically."
+        </h1>
+        <p class="quote-author">- Author</p>
+      </div>
+      <!-- Button now contains the icon instead of text -->
+      <button class="quote-btn" id="generateBtn">
+        <img width="50" height="50" src="../../assets/icons8-reload-32.png" alt="synchronize"/>
+      </button>
+    </div>
+  </main>
+
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
